@@ -30,5 +30,4 @@ In the event of a security breach, the system alerts users through a pop-up indi
 
 To generate a new component, run:
 
-```bash
-ng generate component component-name
+
