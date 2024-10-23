@@ -1,49 +1,34 @@
-# blockchain-finance
+# Blockchain Transaction Security System
 
-This project is Capstone project for my final year Bachelor's degree in Computer Science at Gandhi Institute of Technology and Management, India
+This project serves as my Capstone project for the final year of my Bachelor's degree in Computer Science at Gandhi Institute of Technology and Management, India.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
-It is inspired by and a practical implementation of the paper [Research of a Possibility of Using Blockchain Technology without Tokens to Protect Banking Transactions](https://ieeexplore.ieee.org/document/8657279)
+
 
 ## Development
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To generate a new component, run:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Blockchain Technology
 
-## Testing
+Blockchain is a decentralized and distributed digital ledger technology that allows multiple parties to securely record, store, and share information. Each record in a blockchain is called a block, which contains a list of transactions. Once a block is filled, it is cryptographically linked to the previous block, forming a chain of blocks. This structure ensures that any attempt to alter a block would require changing all subsequent blocks, making it highly secure against tampering.
 
-### Running unit tests
+### Key Features
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Decentralization:** Unlike traditional banking systems, where a central authority manages transactions, blockchain operates on a peer-to-peer network, reducing the risk of a single point of failure.
+- **Immutability:** Once a transaction is recorded on the blockchain, it cannot be altered or deleted, providing a permanent and transparent record of all transactions.
+- **Transparency:** All participants in the network can view the transaction history, promoting trust among users.
+- **Security:** Blockchain employs cryptographic techniques to secure transaction data, ensuring that only authorized parties can access it.
 
-### Running end-to-end tests
+### Use Case
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+This project applies blockchain technology to protect banking transactions without the need for tokens. By leveraging blockchain's unique characteristics, it offers a secure platform for users to add or transfer money while maintaining a transparent and immutable record of all transactions. 
 
+In the event of a security breach, the system alerts users through a pop-up indicating that the blockchain has been tampered with, enabling swift action to be taken to safeguard their assets.
 
-## Dashboard 
+## Development
 
-User Login [Dashboard](https://blockchain-finance.firebaseapp.com/login) to add money or transfer money to other users.
+To generate a new component, run:
 
-[Contact me](https://prateeshreddy007.wixsite.com/mysite/contact) or connect with me on [Linkedin](https://www.linkedin.com/in/prateeshreddy) to get Login Credentials for the dashboard if u want to play around with the Project.
-
-Also Database showing all transactions with columns 
-From Account, To Account,	Amount,	Date of Transaction, Transaction ID, Current Hash and Previous Hash. 
-
-This Project is unique as it is uses blockchain to authenticate transactions by checking if prev hash is equal to current hash.
-
-If any hacker tries to interupt these transactions our dashboard gives pop-up showing Blockchain tampered.
-
-<img src="src/app/dashboard/image.PNG" width = "800">
-
-
-
-## Citation
-
-N. A. Popova and N. G. Butakova, [Research of a Possibility of Using Blockchain Technology without Tokens to Protect Banking Transactions](https://ieeexplore.ieee.org/document/8657279) 2019 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus), St.Petersburg and Moscow, Russia, 2019, pp. 1764-1768.
-
-
-
-
+```bash
+ng generate component component-name
