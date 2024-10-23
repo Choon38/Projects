@@ -1,13 +1,5 @@
 # Blockchain Transaction Security System
 
-This project serves as my Capstone project for the final year of my Bachelor's degree in Computer Science at Gandhi Institute of Technology and Management, India.
-
-
-
-
-## Development
-
-To generate a new component, run:
 
 ### Blockchain Technology
 
