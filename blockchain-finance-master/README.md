@@ -26,8 +26,6 @@ This project applies blockchain technology to protect banking transactions witho
 
 In the event of a security breach, the system alerts users through a pop-up indicating that the blockchain has been tampered with, enabling swift action to be taken to safeguard their assets.
 
-## Development
 
-To generate a new component, run:
 
 
